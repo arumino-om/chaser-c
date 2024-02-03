@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CHaserC: src/asahikawa/chaser_client.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CHaserC
+   &#160;<span id="projectnumber">chaser_c</span>
+   </div>
+   <div id="projectbrief">C/C++向けCHaserライブラリ</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('chaser__client_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">chaser_client.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="chaser__client_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespacechaser__c.html">    7</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechaser__c_1_1asahikawa.html">chaser_c::asahikawa</a> {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html">chaser_client</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">   17</a></span>&#160;        <span class="keyword">enum</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">direction</a> { <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fa2f74f020d1097b42c7e0949e4bfe3ed4">UP</a>, <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fa36f081dff9e21ac3c3bd53413e4a828f">DOWN</a>, <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fad220743d3f80a4676f05f21f02279658">LEFT</a>, <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9faf39631c49be4eea1401b24bf0e5022ad">RIGHT</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9faf39631c49be4eea1401b24bf0e5022ad">   22</a></span>&#160;        };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ad6c974a42bd004273be2eab9f7468d2f">chaser_client</a>(std::string &amp;address, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> port, std::string &amp;name);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#aef30e1543d34ba012642b3ddf68e6be5">   33</a></span>&#160;        <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#aef30e1543d34ba012642b3ddf68e6be5">~chaser_client</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a4eb04e2aac20ca8c64c5b3e81f656dfa">   40</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a4eb04e2aac20ca8c64c5b3e81f656dfa">get_ready</a>(<span class="keywordtype">int</span> *values, <span class="keywordtype">int</span> values_length);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a2c41886a99e08a2422ad54b69983ddc6">   48</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a2c41886a99e08a2422ad54b69983ddc6">walk</a>(<a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">direction</a> dir, <span class="keywordtype">int</span> *values, <span class="keywordtype">int</span> values_length);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a5c4f0ef4c8ffb20c0ee944f96267567a">   56</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a5c4f0ef4c8ffb20c0ee944f96267567a">look</a>(<a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">direction</a> dir, <span class="keywordtype">int</span> *values, <span class="keywordtype">int</span> values_length);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ada23ceb5145fee6eee5d61ebcc99d826">   64</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ada23ceb5145fee6eee5d61ebcc99d826">search</a>(<a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">direction</a> dir, <span class="keywordtype">int</span> *values, <span class="keywordtype">int</span> values_length);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a01f1c488d99fe6c9e8f5a0c8da4c2adc">   72</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a01f1c488d99fe6c9e8f5a0c8da4c2adc">put</a>(<a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">direction</a> dir, <span class="keywordtype">int</span> *values, <span class="keywordtype">int</span> values_length);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ae34bf448bb41fff3b8d14d43ff09e0d4">   79</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ae34bf448bb41fff3b8d14d43ff09e0d4">send_command</a>(std::string &amp;command_id);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    };</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html">chaser_c::asahikawa::chaser_client</a></div><div class="ttdoc">CHaser クライアント</div><div class="ttdef"><b>Definition:</b> chaser_client.h:12</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a01f1c488d99fe6c9e8f5a0c8da4c2adc"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a01f1c488d99fe6c9e8f5a0c8da4c2adc">chaser_c::asahikawa::chaser_client::put</a></div><div class="ttdeci">void put(direction dir, int *values, int values_length)</div><div class="ttdoc">Put を送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a1614803f4ef1f10c29617a1576bc5b9f"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9f">chaser_c::asahikawa::chaser_client::direction</a></div><div class="ttdeci">direction</div><div class="ttdoc">方向指定を行う列挙体</div><div class="ttdef"><b>Definition:</b> chaser_client.h:17</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a1614803f4ef1f10c29617a1576bc5b9fa2f74f020d1097b42c7e0949e4bfe3ed4"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fa2f74f020d1097b42c7e0949e4bfe3ed4">chaser_c::asahikawa::chaser_client::UP</a></div><div class="ttdeci">@ UP</div><div class="ttdef"><b>Definition:</b> chaser_client.h:18</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a1614803f4ef1f10c29617a1576bc5b9fa36f081dff9e21ac3c3bd53413e4a828f"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fa36f081dff9e21ac3c3bd53413e4a828f">chaser_c::asahikawa::chaser_client::DOWN</a></div><div class="ttdeci">@ DOWN</div><div class="ttdef"><b>Definition:</b> chaser_client.h:19</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a1614803f4ef1f10c29617a1576bc5b9fad220743d3f80a4676f05f21f02279658"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9fad220743d3f80a4676f05f21f02279658">chaser_c::asahikawa::chaser_client::LEFT</a></div><div class="ttdeci">@ LEFT</div><div class="ttdef"><b>Definition:</b> chaser_client.h:20</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a1614803f4ef1f10c29617a1576bc5b9faf39631c49be4eea1401b24bf0e5022ad"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a1614803f4ef1f10c29617a1576bc5b9faf39631c49be4eea1401b24bf0e5022ad">chaser_c::asahikawa::chaser_client::RIGHT</a></div><div class="ttdeci">@ RIGHT</div><div class="ttdef"><b>Definition:</b> chaser_client.h:21</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a2c41886a99e08a2422ad54b69983ddc6"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a2c41886a99e08a2422ad54b69983ddc6">chaser_c::asahikawa::chaser_client::walk</a></div><div class="ttdeci">void walk(direction dir, int *values, int values_length)</div><div class="ttdoc">Walk を送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a4eb04e2aac20ca8c64c5b3e81f656dfa"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a4eb04e2aac20ca8c64c5b3e81f656dfa">chaser_c::asahikawa::chaser_client::get_ready</a></div><div class="ttdeci">void get_ready(int *values, int values_length)</div><div class="ttdoc">GetReady を送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_a5c4f0ef4c8ffb20c0ee944f96267567a"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#a5c4f0ef4c8ffb20c0ee944f96267567a">chaser_c::asahikawa::chaser_client::look</a></div><div class="ttdeci">void look(direction dir, int *values, int values_length)</div><div class="ttdoc">Look を送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_ad6c974a42bd004273be2eab9f7468d2f"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ad6c974a42bd004273be2eab9f7468d2f">chaser_c::asahikawa::chaser_client::chaser_client</a></div><div class="ttdeci">chaser_client(std::string &amp;address, unsigned short port, std::string &amp;name)</div><div class="ttdoc">CHaser クライアントを初期化します。</div><div class="ttdef"><b>Definition:</b> chaser_client.cc:5</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_ada23ceb5145fee6eee5d61ebcc99d826"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ada23ceb5145fee6eee5d61ebcc99d826">chaser_c::asahikawa::chaser_client::search</a></div><div class="ttdeci">void search(direction dir, int *values, int values_length)</div><div class="ttdoc">Search を送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_ae34bf448bb41fff3b8d14d43ff09e0d4"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#ae34bf448bb41fff3b8d14d43ff09e0d4">chaser_c::asahikawa::chaser_client::send_command</a></div><div class="ttdeci">void send_command(std::string &amp;command_id)</div><div class="ttdoc">サーバーにコマンドを送信します。</div></div>
+<div class="ttc" id="aclasschaser__c_1_1asahikawa_1_1chaser__client_html_aef30e1543d34ba012642b3ddf68e6be5"><div class="ttname"><a href="classchaser__c_1_1asahikawa_1_1chaser__client.html#aef30e1543d34ba012642b3ddf68e6be5">chaser_c::asahikawa::chaser_client::~chaser_client</a></div><div class="ttdeci">~chaser_client()</div></div>
+<div class="ttc" id="anamespacechaser__c_1_1asahikawa_html"><div class="ttname"><a href="namespacechaser__c_1_1asahikawa.html">chaser_c::asahikawa</a></div><div class="ttdoc">C/C++用 CHaser ライブラリ for 旭川版ルール</div><div class="ttdef"><b>Definition:</b> chaser_client.h:7</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2f0c33ab0a4b771d44f2b2f4f687d619.html">asahikawa</a></li><li class="navelem"><a class="el" href="chaser__client_8h.html">chaser_client.h</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

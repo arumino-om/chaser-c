@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CHaserC: chaser_c::chaser_socket::socket_interface クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CHaserC
+   &#160;<span id="projectnumber">chaser_c</span>
+   </div>
+   <div id="projectbrief">C/C++向けCHaserライブラリ</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classchaser__c_1_1chaser__socket_1_1socket__interface.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classchaser__c_1_1chaser__socket_1_1socket__interface-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">chaser_c::chaser_socket::socket_interface クラス<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>ソケット通信を抽象化したインターフェース  
+ <a href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="socket__interface_8h_source.html">socket_interface.h</a>&gt;</code></p>
+<div class="dynheader">
+chaser_c::chaser_socket::socket_interface の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classchaser__c_1_1chaser__socket_1_1socket__interface.png" usemap="#chaser_5Fc::chaser_5Fsocket::socket_5Finterface_map" alt=""/>
+  <map id="chaser_5Fc::chaser_5Fsocket::socket_5Finterface_map" name="chaser_5Fc::chaser_5Fsocket::socket_5Finterface_map">
+<area href="classchaser__c_1_1chaser__socket_1_1socket__winsock2.html" title="socket_interface の Winsock2 用実装" alt="chaser_c::chaser_socket::socket_winsock2" shape="rect" coords="0,56,254,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ab9ff7a37712b855ef839e143276b5287"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#ab9ff7a37712b855ef839e143276b5287">init_socket</a> (std::string &amp;address, unsigned short port)=0</td></tr>
+<tr class="memdesc:ab9ff7a37712b855ef839e143276b5287"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットを初期化します。  <a href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#ab9ff7a37712b855ef839e143276b5287">[詳解]</a><br /></td></tr>
+<tr class="separator:ab9ff7a37712b855ef839e143276b5287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e66c6ceb84487804699efd9517995ff"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#a3e66c6ceb84487804699efd9517995ff">send_buffer</a> (std::string &amp;content)=0</td></tr>
+<tr class="memdesc:a3e66c6ceb84487804699efd9517995ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">バッファーを送信します。  <a href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#a3e66c6ceb84487804699efd9517995ff">[詳解]</a><br /></td></tr>
+<tr class="separator:a3e66c6ceb84487804699efd9517995ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1f653729dc02cdeb789a31ac1e20b1"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#aae1f653729dc02cdeb789a31ac1e20b1">receive_buffer</a> ()=0</td></tr>
+<tr class="memdesc:aae1f653729dc02cdeb789a31ac1e20b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">バッファーを受信し、文字列として返します。  <a href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#aae1f653729dc02cdeb789a31ac1e20b1">[詳解]</a><br /></td></tr>
+<tr class="separator:aae1f653729dc02cdeb789a31ac1e20b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247acfd8533af383f4f028f9a73bb686"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#a247acfd8533af383f4f028f9a73bb686">close_socket</a> ()=0</td></tr>
+<tr class="memdesc:a247acfd8533af383f4f028f9a73bb686"><td class="mdescLeft">&#160;</td><td class="mdescRight">ソケットを閉じます。  <a href="classchaser__c_1_1chaser__socket_1_1socket__interface.html#a247acfd8533af383f4f028f9a73bb686">[詳解]</a><br /></td></tr>
+<tr class="separator:a247acfd8533af383f4f028f9a73bb686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>ソケット通信を抽象化したインターフェース </p>
+<p>CHaserC では、このインターフェースを通じてソケット通信の実装を切り替えます。<br  />
+ 新規にソケット通信の実装を行う場合は、このインターフェースを継承してください。 </p>
+</div><h2 class="groupheader">関数詳解</h2>
+<a id="a247acfd8533af383f4f028f9a73bb686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247acfd8533af383f4f028f9a73bb686">&#9670;&nbsp;</a></span>close_socket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chaser_c::chaser_socket::socket_interface::close_socket </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ソケットを閉じます。 </p>
+
+<p><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__winsock2.html#a2d3e903938c06b13b51d1459286ac8dc">chaser_c::chaser_socket::socket_winsock2</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="ab9ff7a37712b855ef839e143276b5287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ff7a37712b855ef839e143276b5287">&#9670;&nbsp;</a></span>init_socket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chaser_c::chaser_socket::socket_interface::init_socket </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ソケットを初期化します。 </p>
+<dl class="section note"><dt>覚え書き</dt><dd>開発者向け: この関数でソケットを初期化した後、クラスインスタンス内にそのソケットを保持することを想定しています。 </dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">address</td><td>接続先アドレス </td></tr>
+    <tr><td class="paramname">port</td><td>接続先ポート </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>接続できた場合は true, できなかった場合は false </dd></dl>
+
+<p><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__winsock2.html#adca14f17fb1e1753c31608d072824087">chaser_c::chaser_socket::socket_winsock2</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="aae1f653729dc02cdeb789a31ac1e20b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1f653729dc02cdeb789a31ac1e20b1">&#9670;&nbsp;</a></span>receive_buffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string chaser_c::chaser_socket::socket_interface::receive_buffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>バッファーを受信し、文字列として返します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>正しく受信できた場合は文字列、そうでない場合は nullptr </dd></dl>
+
+<p><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__winsock2.html#aec7983d40487ca82ce18c39df72ff789">chaser_c::chaser_socket::socket_winsock2</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a3e66c6ceb84487804699efd9517995ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e66c6ceb84487804699efd9517995ff">&#9670;&nbsp;</a></span>send_buffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool chaser_c::chaser_socket::socket_interface::send_buffer </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>content</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>バッファーを送信します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">content</td><td>送信内容 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>送信できた場合は true，送信できなかった場合は false </dd></dl>
+
+<p><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__winsock2.html#a78f9b4e9e46aa1079d7537dbd3c6342b">chaser_c::chaser_socket::socket_winsock2</a>で実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>src/chaser_socket/<a class="el" href="socket__interface_8h_source.html">socket_interface.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacechaser__c.html">chaser_c</a></li><li class="navelem"><a class="el" href="namespacechaser__c_1_1chaser__socket.html">chaser_socket</a></li><li class="navelem"><a class="el" href="classchaser__c_1_1chaser__socket_1_1socket__interface.html">socket_interface</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>
